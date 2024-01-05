@@ -1,0 +1,285 @@
+/*global css start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    font-family: 'Spartan', sans-serif; 
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+/*global css end */
+
+
+/* banner-section css */
+
+.banner-section{
+width: 100%;
+height: 100vh;
+padding: 80px 0px;
+background: url(../img/b.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.s-btn{
+    padding-top: 85px;
+    margin-bottom: 25px;
+}
+
+.s-btn a{
+    padding: 20px 35px;
+    border: 2px solid #078586;
+    border-radius: 14px 0px 14px 0px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+
+
+.st{
+
+}
+
+.st h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 80px;
+    letter-spacing: 1px;
+    margin-top: 4%;
+    margin-bottom: 28px;
+}
+
+.sp{
+
+}
+
+.sp p{
+    font-size: 18px;
+    color: #aaafb8;
+    line-height: 28px;
+    padding-bottom: 4%;
+}
+
+.srm-btn{
+
+}
+
+.srm-btn a{
+    padding: 17px 23px;
+    background: #078586;
+    border-radius: 13px 0px 13px 0px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: 0.6s;  
+}
+
+.srm-btn :hover{
+    background: #fff;
+    text-transform: capitalize;
+    color: #078586;
+    border-radius: 0px 13px 0px 13px;
+    transition: 0.6s;
+}
+
+/* about-section css */
+
+.about-section {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #f0f3f9;
+}
+
+.about-section .main-box {
+    text-align: center;
+}
+
+.about-section .main-box h4 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #078586;
+}
+
+.line {
+    width: 7.5%;
+    height: 1.2px;
+    background: #078586;
+    margin-top: -12px;
+    margin-left: 45.4%;
+    margin-bottom: 10px;
+
+}
+
+.about-section .main-box h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.about-section .main-box p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #4a4e56;
+    margin-bottom: 50px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 60vh;
+    border-radius: 11px 11px 11px 11px;
+}
+
+.feature-section .feature-box {}
+
+.pr {
+    position: relative;
+}
+
+.position-box {
+    position: absolute;
+    padding: 33px 0px 27px 24px;
+    background-color: #fff;
+    width: 90%;
+    height: 90%;
+    top: 23px;
+    bottom: 23px;
+    left: 17px;
+    right: 0px;
+    border-radius: 14px 0px 14px 0px;
+}
+
+.position-box .img-box img {
+    text-align: center !important;
+    margin-bottom: 18px;
+    margin-left: 96px;
+}
+
+.position-box h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-right: 18px;
+    margin-bottom: 13px;
+}
+
+.position-box p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #4a535c;
+    margin-right: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.pp p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #4a535c;
+    margin-right: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.position-box .mp {
+    margin-bottom: 7px;
+}
+
+.position-box .mp img {
+    margin-top: -3px;
+    margin-right: 5px;
+
+}
+
+.position-box .mp span {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #505156;
+}
+
+.meddle-img {
+    position: relative;
+}
+
+.tp-content {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 34%;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 20px;
+}
+
+.tp-content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 28px;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+
+.tp-content p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #4a535c;
+    margin-right: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+
+.socil-icon {
+    position: absolute;
+    color: #fff;
+    top: 126px;
+    bottom: 0px;
+    right: 0;
+    left: 135px;
+    width: 57px;
+    height: 57px;
+    background-color: #078586;
+    text-align: center;
+    line-height: 57px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.socil-icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.socil-icon ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
